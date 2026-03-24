@@ -67,14 +67,14 @@ export default function DashboardPage() {
                 <p className="text-on-surface-variant text-sm mb-4">Golden Retriever - 2y 4m</p>
                 <div className="space-y-3">
                   <div className="flex justify-between text-xs">
-                    <span className="text-slate-500">Weight</span>
+                    <span className="text-on-surface-variant">Weight</span>
                     <span className="font-semibold text-on-surface">24.5 kg</span>
                   </div>
                   <div className="w-full bg-surface-container rounded-full h-1.5 overflow-hidden">
                     <div className="bg-primary h-full w-[75%]"></div>
                   </div>
                   <div className="flex justify-between text-xs">
-                    <span className="text-slate-500">Activity Score</span>
+                    <span className="text-on-surface-variant">Activity Score</span>
                     <span className="font-semibold text-on-surface">88%</span>
                   </div>
                 </div>
@@ -100,22 +100,22 @@ export default function DashboardPage() {
                 <p className="text-on-surface-variant text-sm mb-4">Domestic Shorthair - 5y 1m</p>
                 <div className="space-y-3">
                   <div className="flex justify-between text-xs">
-                    <span className="text-slate-500">Weight</span>
+                    <span className="text-on-surface-variant">Weight</span>
                     <span className="font-semibold text-on-surface">4.2 kg</span>
                   </div>
                   <div className="w-full bg-surface-container rounded-full h-1.5 overflow-hidden">
                     <div className="bg-tertiary h-full w-[40%]"></div>
                   </div>
                   <div className="flex justify-between text-xs">
-                    <span className="text-slate-500">Activity Score</span>
+                    <span className="text-on-surface-variant">Activity Score</span>
                     <span className="font-semibold text-on-surface">42%</span>
                   </div>
                 </div>
               </div>
 
               {/* Add New Pet Card */}
-              <button className="bg-surface-container-high/30 border-2 border-dashed border-outline-variant/30 rounded-xl flex flex-col items-center justify-center p-6 text-slate-400 hover:border-primary/50 hover:text-primary transition-colors group">
-                <div className="w-12 h-12 rounded-full bg-white dark:bg-slate-800 flex items-center justify-center mb-3 shadow-sm group-hover:scale-110 transition-transform">
+              <button className="bg-surface-container-high/30 border-2 border-dashed border-outline-variant/30 rounded-xl flex flex-col items-center justify-center p-6 text-on-surface-variant hover:border-primary/50 hover:text-primary transition-colors group">
+                <div className="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center mb-3 shadow-sm group-hover:scale-110 transition-transform">
                   <span className="material-symbols-outlined">add</span>
                 </div>
                 <span className="font-bold text-sm">Add New Pet</span>
@@ -161,7 +161,7 @@ export default function DashboardPage() {
 
                 {/* Reminder Item 3 - Completed */}
                 <div className="bg-surface-container-lowest p-4 rounded-xl flex items-center gap-4 hover:bg-surface-container-low transition-colors opacity-60">
-                  <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center text-slate-400 shrink-0">
+                  <div className="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-on-surface-variant shrink-0">
                     <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>
                       check_circle
                     </span>

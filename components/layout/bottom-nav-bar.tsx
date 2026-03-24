@@ -16,7 +16,7 @@ export function BottomNavBar() {
   const pathname = usePathname()
 
   return (
-    <div className="md:hidden fixed bottom-0 left-0 right-0 h-20 bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl z-50 flex items-center justify-around px-4 shadow-[0_-4px_20px_rgba(0,0,0,0.05)]">
+    <div className="md:hidden fixed bottom-0 left-0 right-0 h-20 bg-surface-container/90 backdrop-blur-xl z-50 flex items-center justify-around px-4 border-t border-outline-variant">
       {navItems.map((item) => {
         const isActive = pathname === item.href
         return (
@@ -25,7 +25,7 @@ export function BottomNavBar() {
             href={item.href}
             className={cn(
               "flex flex-col items-center gap-1",
-              isActive ? "text-cyan-700" : "text-slate-400"
+              isActive ? "text-primary" : "text-on-surface-variant"
             )}
           >
             <span

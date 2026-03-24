@@ -44,7 +44,7 @@ export default function ProfilesPage() {
                 </div>
                 <div className="space-y-6">
                   <div className="group">
-                    <label className="text-[10px] uppercase tracking-widest text-slate-400 font-bold mb-1 block">
+                    <label className="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold mb-1 block">
                       Full Name
                     </label>
                     <p className="text-lg font-medium text-on-surface border-b border-transparent group-hover:border-primary-container/20 pb-1 transition-all">
@@ -52,7 +52,7 @@ export default function ProfilesPage() {
                     </p>
                   </div>
                   <div className="group">
-                    <label className="text-[10px] uppercase tracking-widest text-slate-400 font-bold mb-1 block">
+                    <label className="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold mb-1 block">
                       Location
                     </label>
                     <div className="flex items-center gap-2 text-on-surface">
@@ -61,14 +61,14 @@ export default function ProfilesPage() {
                     </div>
                   </div>
                   <div className="group">
-                    <label className="text-[10px] uppercase tracking-widest text-slate-400 font-bold mb-1 block">
+                    <label className="text-[10px] uppercase tracking-widest text-on-surface-variant font-bold mb-1 block">
                       Email Address
                     </label>
                     <p className="text-on-surface">a.wright@editorialcare.com</p>
                   </div>
                 </div>
                 <div className="mt-10 pt-10 border-t border-surface-container">
-                  <h4 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-4">Preferences</h4>
+                  <h4 className="text-xs font-bold uppercase tracking-widest text-on-surface-variant mb-4">Preferences</h4>
                   <div className="space-y-4">
                     <div className="flex items-center justify-between">
                       <span className="text-sm font-medium">Emergency Alerts</span>
@@ -209,7 +209,7 @@ export default function ProfilesPage() {
                         <div className="w-full bg-primary/20 rounded-t-lg h-[82%]"></div>
                         <div className="w-full bg-primary rounded-t-lg h-[90%]"></div>
                       </div>
-                      <div className="flex justify-between text-[10px] font-bold text-slate-400 uppercase tracking-tighter">
+                      <div className="flex justify-between text-[10px] font-bold text-on-surface-variant uppercase tracking-tighter">
                         <span>Jan</span>
                         <span>Feb</span>
                         <span>Mar</span>
